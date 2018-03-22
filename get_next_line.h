@@ -18,9 +18,8 @@
 # include <sys/uio.h>
 # include <fcntl.h>
 
-# define BUFF_SIZE 1000
+# define BUFF_SIZE 1
 
-char	*ft_magic(char **line, char *res);
 int		get_next_line(const int fd, char **line);
 
 #endif
